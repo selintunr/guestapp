@@ -23,6 +23,7 @@ urlpatterns = [
     path('',views.index,name='index'),
     path('guests/',views.guests,name='guests'),
     path('door/',views.door,name='door'),
+    path('settings/',views.settings,name='settings'),
 
 
 ]

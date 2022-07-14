@@ -14,3 +14,7 @@ def guests(request):
 
 def door(request):
     return render(request, 'leads.html')        
+
+
+def settings(request):
+    return render(request, 'settings.html')       
